@@ -1,0 +1,148 @@
+/* Google Font (schriftart Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Grundeinstellungen */
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+/* Seitenlayout (Hintergrundbild */
+body {
+    font-family: 'Poppins';
+    color: white;
+    background-image: url("Hintergrund.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Hauptüberschrift */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Navigation (Startseite,Studium,Hobbies,Impressum */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: fit-content;
+    overflow: hidden;
+}
+
+/* Menüpunkte einzelne Menü Punkte */
+.menu li {
+    float: left;
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Menülinks */
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Hover-Effekt schrift wird größer (WebLink) */
+a:hover {
+    font-size: 150%;
+}
+
+/* Absätze (Textgrapghen) (Abstand) */
+p {
+    background-color: rgba(238, 244, 236, 0.25);
+  
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+}
+
+.info-box {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.info-box h2 {
+    margin-left: 0;
+}
+
+.info-box p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+/* Scrollbox */
+.scroll-box {
+    width: 400px;
+    height: 120px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow-y: scroll;
+}
+
+/* Tabelle */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+/* Tabellenzellen */
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Tabellenkopf */
+th {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+
+/* Hochschul-Link */
+.hft-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(0, 153, 255);
+  
+}
+
+/* Modul-Scrollbox */
+.scrollbox-Module {
+    width: 60%;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* Tabelle in Scrollbox */
+table {
+    width: 100%;
+    margin: 0 ;
+}
